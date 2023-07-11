@@ -1,0 +1,51 @@
+PYTHON
+Parâmetro ou variável ou constante - Todo método tem () no final
+Cadeira de caracteres / frase = string – str (‘frase‘)
+Fatiamento = dividir as letras/caracteres mostrando posição de cada um – [começo : fim] ou [começo : intervalo : fim]
+Tamanho dos caracteres = len(parametro)
+Contador = parâmetro.count(‘a’)
+Contagem com fatiamento = parâmetro.count(‘a, inicio, fim’)
+Busca por termo = parâmetro.find(‘mario’) – retorna o inicio da palavra ou se não tiver retorna -1
+Expressão na sentença = ‘palavra’ in parâmetro – retorna true ou false
+Substituir palavra = parâmetro.replace(‘python’, ‘java’)
+Deixar maiúscula = variável.upper()
+Deixar minúscula = variável.lower()
+Deixar primeira maiúscula = variável.capitalize()
+Deixar a primeira maiúscula em cada palavra = variável.title()
+Remover espaços entre inicio e fim = variável.strip()
+Remover espaços à direita = variável.rstrip()
+Remover espaços à esquerda = variável.lstrip()
+Gerar lista com as palavra baseado nos espaços = variável.split()
+Juntar as palavras da frase = ‘-‘.join(variavel)
+
+FUNÇÃO – ROTINA – coisa que se repete constantemente
+def nome_da_funcao(): *parênteses obrigatórios
+	print() ou qualquer ação
+
+def mensagem(parametro):
+	print(‘-----’)
+	print(parametro)
+mensagem(‘O que eu quiser’)
+
+Empacotamento – cria uma tupla com os parâmetros e faz o tratamento com a lista.
+def contador (*numero):  o * é a função desempacotar
+	o que eu quiser
+contador(1, 3, 7)
+contador(3, 4)
+contador(5, 8, 10, 1)
+
+TRATAMENTO DE LISTAS E EXECUTANDO O ALGORITMO NA FUNÇÃO
+def dobra(lista):
+	pos=0
+	while pos<leng(lista):
+		lista[posição] *= 2
+		posição += 1
+valores = [7, 2, 5, 4]
+dobra(valores)
+print(valores)
+
+
+
+
+
+
